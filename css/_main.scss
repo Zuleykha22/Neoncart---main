@@ -1,0 +1,1790 @@
+@import "_variable.scss";
+
+.shipping {
+    font-family: 'Rajdhani', sans-serif;
+    background-color: #FAFAFA;
+    padding: 60px;
+
+    .contain {
+        width: 80%;
+
+        h4 {
+            font-size: 18px;
+            font-weight: 700;
+        }
+
+        h5 {
+            font-size: 15px;
+            font-weight: 600;
+        }
+    }
+}
+
+// section shipping ends 
+// section discount starts 
+
+.discount {
+    font-family: 'Rajdhani', sans-serif;
+    height: 70vh;
+    padding-top: 70px;
+
+    .contain {
+        width: 80%;
+
+        .photo-tire {
+            position: relative;
+
+            h2 {
+                position: absolute;
+                top: -20%;
+                left: -20%;
+                width: 15%;
+                height: 15%;
+                padding: 35px;
+                border-radius: 50%;
+                background-color: #E52929;
+                color: white;
+                font-size: 18px;
+            }
+
+            .photo {
+                background-color: rgb(242, 242, 242);
+                border-radius: 50%;
+                padding-top: 15px;
+                position: relative;
+                overflow: hidden;
+                width: 200px;
+                height: 200px;
+                text-align: center;
+
+                .overlay {
+                    padding-top: 42%;
+                    border-radius: 50%;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+                    background-color: rgba(0, 0, 0, 0);
+                    transition: 0.3s ease-in-out;
+
+                    a {
+                        border-radius: 50%;
+                        background-color: #E52929;
+                        padding: 16px;
+                        overflow: hidden;
+                        visibility: hidden;
+                        transition: 0.2s ease-in-out;
+                        transform: translateX(-6px);
+
+                        i {
+                            font-size: 25px;
+                            color: white;
+                            position: relative;
+                        }
+                    }
+
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.667);
+
+                        a {
+                            visibility: visible;
+                            transform: translateX(1);
+                        }
+                    }
+                }
+            }
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 0.5px;
+                height: 55px;
+                border: 1px solid #E52929;
+                top: 105%;
+                left: 50%;
+            }
+        }
+
+        .txt {
+            text-align: center;
+            margin-top: 60px;
+
+            h1 {
+                font-size: 30px;
+                font-weight: 800;
+                color: black;
+            }
+
+            h6 {
+                font-size: 18px;
+                color: #E52929;
+                font-weight: 700;
+            }
+        }
+    }
+
+}
+
+// section discount ends 
+// section deals starts 
+
+.deals {
+    font-family: 'Rajdhani', sans-serif;
+    background-image: url(https://prestashop17.joommasters.com/neoncart/themes/jms_delphinus/assets/img/car_parts/bg_02.jpg);
+    height: 120vh;
+    padding: 70px;
+
+    .top-text {
+        padding: 0 45px;
+
+        h1 {
+            font-size: 50px;
+            font-weight: 900;
+        }
+
+        h5 {
+            margin-top: -10px;
+            color: #E52929;
+            font-size: 18px;
+            font-weight: 900;
+        }
+    }
+
+    .offer {
+        background-color: white;
+        padding: 18px 0 70px 0;
+
+        .slide {
+            padding: 15px;
+
+            a {
+                i {
+                    padding: 16px 18.8px;
+                    color: white;
+                    background-color: #313131;
+                    border-radius: 50%;
+                    transition: 0.3s ease-in-out;
+
+                    &:hover {
+                        background-color: #E52929;
+                    }
+                }
+            }
+        }
+
+        h3 {
+            letter-spacing: 10px;
+            font-size: 21px;
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: 45px;
+            font-weight: 900;
+            padding-right: 80px;
+            line-height: 38px;
+        }
+
+        .time {
+            padding: 12px 0;
+
+            .time-detailed {
+                text-align: center;
+                margin-right: 20px;
+
+                h5 {
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 17px;
+                    background-color: #F3F3F3;
+                }
+
+                h4 {
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+
+                .fifteen {
+                    padding: 17px 23px;
+                }
+
+                .twenty-four {
+                    padding: 17px 21px;
+                }
+
+                .twenty-six {
+                    padding: 17px 21.5px;
+                }
+            }
+
+
+        }
+
+        p {
+            font-size: 31px;
+            font-weight: 800;
+        }
+
+        h6 {
+            font-family: 'Lato', sans-serif;
+            color: #303030;
+            font-size: 15px;
+            font-weight: 400;
+        }
+
+        .shop-now {
+            text-decoration: none;
+            padding: 13px 35px;
+            color: white;
+            background-color: #E52929;
+            font-weight: 900;
+            position: relative;
+
+            &:hover {
+                &::before {
+                    width: 100%;
+                    left: 0%;
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0%;
+                transition: 0.3s ease-in-out;
+                height: 100%;
+                width: 0%;
+                background-color: #303030;
+                right: 0%;
+                transform-origin: 0 100%;
+            }
+        }
+    }
+
+    .list {
+        background-image: url(https://prestashop17.joommasters.com/neoncart/themes/jms_delphinus/assets/img/car_parts/banner-2.jpg);
+        height: 545px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        position: relative;
+
+        .list-overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            left: 0%;
+            padding: 55px 28px;
+            background-color: rgba(0, 0, 0, 0.544);
+
+            .p1 {
+                color: #E52929;
+                font-size: 27px;
+                font-weight: 900;
+                letter-spacing: 0.05px;
+                line-height: 25px;
+            }
+
+            h6 {
+                color: white;
+                font-family: 'Lato', sans-serif;
+                font-size: 14.5px;
+                font-weight: 400;
+                line-height: 25px;
+            }
+
+            ul {
+                margin-top: 15px;
+
+                li {
+                    a {
+                        text-decoration: none;
+                        color: white;
+                        font-size: 18px;
+                        font-weight: 900;
+                        transition: 0.3s ease-in-out;
+
+                        &:hover {
+                            color: #E52929;
+                        }
+                    }
+                }
+            }
+
+            .shop-now {
+                text-decoration: none;
+                padding: 13px 35px;
+                color: white;
+                background-color: #E52929;
+                font-weight: 900;
+                position: relative;
+
+                &:hover {
+                    &::before {
+                        width: 100%;
+                        left: 0%;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0%;
+                    transition: 0.3s ease-in-out;
+                    height: 100%;
+                    width: 0%;
+                    background-color: #303030;
+                    right: 0%;
+                    transform-origin: 0 100%;
+                }
+            }
+        }
+
+    }
+
+}
+
+// section deals ends 
+// section products starts 
+
+.products {
+    position: relative;
+    font-family: 'Rajdhani', sans-serif;
+    height: 175vh;
+    padding-top: 80px;
+
+    .side-box {
+        position: absolute;
+        top: 207px;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+
+        ul {
+            li {
+                a {
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-weight: 700;
+                    color: black;
+                    padding: 11px 11px;
+                    background-color: #F5F5F5;
+                    transition: 0.3s ease-in-out;
+                    line-height: 60px;
+
+                    &:hover {
+                        color: #E52929;
+                    }
+
+                    &.li-service {
+                        color: #E52929;
+                    }
+
+                    &.li-lighting {
+                        padding: 11px 23.8px;
+                    }
+
+                    &.li-trending {
+                        padding: 11px 20.8px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .contain {
+        width: 80%;
+
+        .products-top-text {
+            margin-bottom: 35px;
+            text-align: center;
+
+            h1 {
+                font-size: 55px;
+                font-weight: 800;
+            }
+
+            h6 {
+                color: #E52929;
+                font-weight: 800;
+                font-size: larger;
+            }
+        }
+
+        .product-one {
+            margin-bottom: 30px;
+            width: 270px;
+
+            .price-1 {
+                background-color: rgb(248, 248, 248);
+                position: relative;
+
+                .price-overlay {
+                    padding: 15px;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+                    background-color: rgba(255, 255, 255, 0);
+                    transition: 0.5s ease-in-out;
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.682);
+
+                        .icons {
+                            a {
+                                i {
+                                    visibility: visible;
+                                    transform: translateY(-16px);
+                                    transition: 0.3s ease-in-out;
+
+                                    &:hover {
+                                        transform: translateY(-23px);
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .sale {
+                        h6 {
+                            display: inline;
+                            color: white;
+                            background-color: #E52929;
+                            padding: 4px 16px;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .icons {
+                        margin-top: 100px;
+
+                        a {
+                            text-decoration: none;
+
+                            i {
+                                visibility: hidden;
+                                background-color: white;
+                                color: #2e2e2e;
+                                padding: 18px;
+                                border-radius: 50%;
+                                transition: 0.3s ease-in-out;
+                                transform: translateY(30px);
+
+                                &:hover {
+                                    color: white;
+                                    background-color: #E52929;
+                                }
+
+                                &.shopping {
+                                    transition: 0.5s ease-in-out;
+                                }
+
+                                &.glass {
+                                    transition: 0.7s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price-2 {
+                background-color: rgb(248, 248, 248);
+                position: relative;
+
+                .price-overlay {
+                    padding: 15px;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+                    background-color: rgba(255, 255, 255, 0);
+                    transition: 0.5s ease-in-out;
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.682);
+
+                        .icons {
+                            a {
+                                i {
+                                    visibility: visible;
+                                    transform: translateY(-16px);
+                                    transition: 0.3s ease-in-out;
+
+                                    &:hover {
+                                        transform: translateY(-23px);
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .sale {
+                        h6 {
+                            display: inline;
+                            color: white;
+                            background-color: #E52929;
+                            padding: 4px 16px;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .icons {
+                        margin-top: 120px;
+
+                        a {
+                            text-decoration: none;
+
+                            i {
+                                visibility: hidden;
+                                background-color: white;
+                                color: #2e2e2e;
+                                padding: 18px;
+                                border-radius: 50%;
+                                transition: 0.3s ease-in-out;
+                                transform: translateY(30px);
+
+                                &:hover {
+                                    color: white;
+                                    background-color: #E52929;
+                                }
+
+                                &.shopping {
+                                    transition: 0.5s ease-in-out;
+                                }
+
+                                &.glass {
+                                    transition: 0.7s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price-3 {
+                background-color: rgb(248, 248, 248);
+                position: relative;
+
+                .price-overlay {
+                    padding: 15px;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+                    background-color: rgba(255, 255, 255, 0);
+                    transition: 0.5s ease-in-out;
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.682);
+
+                        .icons {
+                            a {
+                                i {
+                                    visibility: visible;
+                                    transform: translateY(-16px);
+                                    transition: 0.3s ease-in-out;
+
+                                    &:hover {
+                                        transform: translateY(-23px);
+                                    }
+                                }
+                            }
+
+                            .shopping {
+                                visibility: visible;
+                                transform: translateY(-16px);
+                            }
+                        }
+
+                    }
+
+                    .sale {
+                        h6 {
+                            display: inline;
+                            color: white;
+                            background-color: #E52929;
+                            padding: 4px 16px;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .icons {
+                        margin-top: 120px;
+
+                        .shopping {
+                            visibility: hidden;
+                            background-color: rgb(168, 168, 168);
+                            color: #2e2e2e;
+                            padding: 18px;
+                            border-radius: 50%;
+                            transition: 0.3s ease-in-out;
+                            transform: translateY(30px);
+                        }
+
+                        a {
+                            text-decoration: none;
+
+                            i {
+                                visibility: hidden;
+                                background-color: white;
+                                color: #2e2e2e;
+                                padding: 18px;
+                                border-radius: 50%;
+                                transition: 0.3s ease-in-out;
+                                transform: translateY(30px);
+
+                                &:hover {
+                                    color: white;
+                                    background-color: #E52929;
+                                }
+
+                                &.shopping {
+                                    background-color: grey;
+                                    transition: 0.5s ease-in-out;
+                                }
+
+                                &.glass {
+                                    transition: 0.7s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price-tag {
+                text-align: start;
+                background-color: #F0EEEE;
+                padding: 15px 20px;
+                color: #2e2e2e;
+
+                a {
+                    color: #2e2e2e;
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-weight: 900;
+                    transition: 0.2s ease-in-out;
+
+                    &:hover {
+                        color: #E52929;
+                    }
+                }
+
+                span {
+                    font-size: 18px;
+                    font-weight: 700;
+
+                    &.line {
+                        position: relative;
+                        font-weight: 500;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 0%;
+                            border: 0.1px solid #2e2e2e;
+                            top: 44%;
+                            left: 0%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .view-more {
+            text-decoration: none;
+            padding: 12px 38px;
+            color: white;
+            background-color: #E52929;
+            font-size: 22px;
+            font-weight: 900;
+            position: relative;
+
+            &:hover {
+                &::before {
+                    width: 100%;
+                    left: 0%;
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0%;
+                transition: 0.3s ease-in-out;
+                height: 100%;
+                width: 0%;
+                background-color: #303030;
+                right: 0%;
+                transform-origin: 0 100%;
+            }
+        }
+    }
+}
+
+// section products ends 
+// section interior-parts starts 
+
+.interior-parts {
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 80px;
+    margin-top: 300px;
+    background-image: url(https://prestashop17.joommasters.com/neoncart/themes/jms_delphinus/assets/img/car_parts/bg_03.jpg);
+    height: 55vh;
+
+    .interior-part {
+        width: 400px;
+        overflow: hidden;
+        position: relative;
+
+        img {
+            width: 600px;
+        }
+
+        &:hover {
+            img {
+                transform: scale(1.07);
+            }
+        }
+
+        img {
+            transform: scale(1);
+            transition: 0.4s ease-in-out;
+        }
+
+        .interior-overlay {
+            padding: 60px 25px;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            left: 0%;
+            background-color: #00000090;
+
+            h6 {
+                color: #E52929;
+                font-size: 19px;
+                margin-bottom: 1px;
+            }
+
+            h2 {
+                color: white;
+                font-size: 35px;
+                font-weight: 700;
+                padding-bottom: 20px;
+            }
+
+            .shop-now {
+                text-decoration: none;
+                padding: 13px 35px;
+                color: white;
+                background-color: #E52929;
+                font-size: 21px;
+                font-weight: 900;
+                position: relative;
+
+                &:hover {
+                    &::before {
+                        width: 100%;
+                        left: 0%;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0%;
+                    transition: 0.3s ease-in-out;
+                    height: 100%;
+                    width: 0%;
+                    background-color: #303030;
+                    right: 0%;
+                    transform-origin: 0 100%;
+                }
+            }
+
+        }
+    }
+
+}
+
+// section interior-parts ends 
+// section products-two starts 
+
+.products-two {
+    font-family: 'Rajdhani', sans-serif;
+    height: 110vh;
+    padding-top: 60px;
+
+    .contain {
+        width: 80%;
+
+        .products-two-top-text {
+            h1 {
+                font-size: 55px;
+                font-weight: 700;
+            }
+        }
+
+        .product-names {
+            padding-left: 680px;
+
+            ul {
+                li {
+                    &.stoptech {
+                        a {
+                            color: #E52929;
+
+                            &::before {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    a {
+                        margin: 0 20px;
+                        display: block;
+                        text-decoration: none;
+                        color: rgb(0, 0, 0);
+                        font-weight: bold;
+                        font-size: 18px;
+                        position: relative;
+                        transition: 0.3s ease-in-out;
+
+                        &:hover {
+                            color: #E52929;
+
+                            &::before {
+                                width: 100%;
+                                left: 0%;
+                            }
+                        }
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            top: 100%;
+                            transition: 0.3s ease-in-out;
+                            height: 1.5px;
+                            width: 0%;
+                            background-color: #E52929;
+                            right: 0%;
+                            transform-origin: 0 100%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .product-one {
+            margin-bottom: 30px;
+            width: 370px;
+
+            .price-2 {
+                text-align: center;
+
+                img {
+                    width: 370px;
+                }
+
+                background-color: rgb(248, 248, 248);
+                position: relative;
+
+                .price-overlay {
+                    padding: 15px;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+                    background-color: rgba(255, 255, 255, 0);
+                    transition: 0.5s ease-in-out;
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.775);
+
+                        .icons {
+                            a {
+                                i {
+                                    visibility: visible;
+                                    transform: translateY(-16px);
+                                    transition: 0.3s ease-in-out;
+
+                                    &:hover {
+                                        transform: translateY(-23px);
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .sale {
+                        h6 {
+                            display: inline;
+                            color: white;
+                            background-color: #E52929;
+                            padding: 4px 16px;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .icons {
+                        margin-top: 160px;
+
+                        a {
+                            text-decoration: none;
+
+                            i {
+                                visibility: hidden;
+                                background-color: white;
+                                color: #2e2e2e;
+                                padding: 18px;
+                                border-radius: 50%;
+                                transition: 0.3s ease-in-out;
+                                transform: translateY(30px);
+
+                                &:hover {
+                                    color: white;
+                                    background-color: #E52929;
+                                }
+
+                                &.shopping {
+                                    transition: 0.5s ease-in-out;
+                                }
+
+                                &.glass {
+                                    transition: 0.7s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price-tag {
+                background-color: #F0EEEE;
+                padding: 25px 20px;
+                color: #2e2e2e;
+
+                a {
+                    color: #2e2e2e;
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-weight: 900;
+                    transition: 0.2s ease-in-out;
+
+                    &:hover {
+                        color: #E52929;
+                    }
+                }
+
+                span {
+                    font-size: 18px;
+                    font-weight: 700;
+
+                    &.line {
+                        position: relative;
+                        font-weight: 500;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 0%;
+                            border: 0.1px solid #2e2e2e;
+                            top: 44%;
+                            left: 0%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .products-two-bottom-text {
+            text-align: center;
+
+            .view-more {
+                text-decoration: none;
+                padding: 12px 38px;
+                color: white;
+                background-color: #E52929;
+                font-size: 22px;
+                font-weight: 900;
+                position: relative;
+
+                &:hover {
+                    &::before {
+                        width: 100%;
+                        left: 0%;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0%;
+                    transition: 0.3s ease-in-out;
+                    height: 100%;
+                    width: 0%;
+                    background-color: #303030;
+                    right: 0%;
+                    transform-origin: 0 100%;
+                }
+            }
+        }
+
+    }
+
+}
+
+// section products-two ends 
+// section interior-parts-two starts 
+
+.interior-parts-two {
+    font-family: 'Rajdhani', sans-serif;
+    height: 60vh;
+    padding-top: 50px;
+
+    .contain {
+        width: 92%;
+
+        .interior-part {
+            width: 560px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+
+            img {
+                width: 100%;
+            }
+
+            &:hover {
+                img {
+                    transform: scale(1.07);
+                }
+            }
+
+            img {
+                transform: scale(1);
+                transition: 0.4s ease-in-out;
+            }
+
+            .interior-overlay {
+                padding: 30px 30px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0%;
+                left: 0%;
+                background-color: #00000090;
+
+                h6 {
+                    color: #E52929;
+                    font-size: 19px;
+                    margin-bottom: 1px;
+                }
+
+                h2 {
+                    color: white;
+                    font-size: 35px;
+                    font-weight: 700;
+                    padding-bottom: 10px;
+                }
+
+                ul {
+                    li {
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-size: 18px;
+                            font-weight: 900;
+                            transition: 0.3s ease-in-out;
+
+                            &:hover {
+                                color: #E52929;
+                            }
+                        }
+                    }
+                }
+
+                a {
+                    i {
+                        color: white;
+                        background-color: #E52929;
+                        padding: 14px 15px;
+                        border-radius: 50%;
+                    }
+                }
+
+            }
+        }
+    }
+
+
+}
+
+// section interior-parts-two ends 
+// section discount-deals starts 
+
+.discount-deals {
+    font-family: 'Rajdhani', sans-serif;
+    height: 125vh;
+    background-color: #FEF8EF;
+    padding-top: 55px;
+
+    .contain {
+        width: 75%;
+
+        .discount-deals-top-text {
+            text-align: center;
+            margin-bottom: 35px;
+            text-align: center;
+
+            h1 {
+                font-size: 55px;
+                font-weight: 800;
+            }
+
+            h6 {
+                color: #E52929;
+                font-weight: 800;
+                font-size: larger;
+            }
+        }
+
+        .product-one {
+            background-color: white;
+            margin-bottom: 30px;
+            width: 350px;
+            height: 430px;
+
+            .price-1 {
+                text-align: center;
+                position: relative;
+                height: 400px;
+
+                .img {
+                    padding-top: 130px;
+                    width: 100%;
+                }
+
+                .price-overlay {
+                    padding: 15px;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+                    background-color: rgba(255, 255, 255, 0);
+                    transition: 0.5s ease-in-out;
+
+                    .sale {
+                        position: absolute;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        padding: 10px 15px;
+                        color: white;
+                        background-color: #E52929;
+
+                        h4 {
+                            font-size: 32px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.682);
+
+                        .icons {
+                            a {
+                                i {
+                                    visibility: visible;
+                                    transform: translateY(-16px);
+                                    transition: 0.3s ease-in-out;
+
+                                    &:hover {
+                                        transform: translateY(-23px);
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+
+
+                    .icons {
+                        margin-top: 230px;
+
+                        a {
+                            text-decoration: none;
+
+                            i {
+                                visibility: hidden;
+                                background-color: white;
+                                color: #2e2e2e;
+                                padding: 18px;
+                                border-radius: 50%;
+                                transition: 0.3s ease-in-out;
+                                transform: translateY(30px);
+
+                                &:hover {
+                                    color: white;
+                                    background-color: #E52929;
+                                }
+
+                                &.shopping {
+                                    transition: 0.5s ease-in-out;
+                                }
+
+                                &.glass {
+                                    transition: 0.7s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price-tag {
+                text-align: start;
+                background-color: #ffffff;
+                padding: 30px;
+                color: #2e2e2e;
+
+                a {
+                    color: #2e2e2e;
+                    text-decoration: none;
+                    font-size: 33px;
+                    font-weight: 900;
+                    transition: 0.2s ease-in-out;
+                }
+
+                span {
+                    color: #E52929;
+                    font-size: 22px;
+                    font-weight: 700;
+
+                    &.line {
+                        position: relative;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #2e2e2e;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 0%;
+                            border: 0.1px solid #2e2e2e;
+                            top: 44%;
+                            left: 0%;
+                        }
+                    }
+                }
+
+                .time {
+                    padding: 12px 0;
+
+                    .time-detailed {
+                        text-align: left;
+                        margin-right: 8px;
+                        padding: 11px 15px;
+                        background-color: #F7FAFF;
+
+                        h4 {
+                            font-size: 17px;
+                            font-weight: 700;
+                        }
+                    }
+
+
+                }
+
+                .dots {
+                    text-align: end;
+
+                    i {
+                        padding: 3px;
+                        font-size: 10px;
+                        color: #FABCBE;
+
+                        &.third {
+                            color: #E52929;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// section discount-deals ends 
+// section sale-product starts 
+
+.sale-product {
+    font-family: 'Rajdhani', sans-serif;
+    height: 120vh;
+    padding-top: 60px;
+
+    .contain {
+        width: 80%;
+
+        .sale-product-top-text {
+            margin-bottom: 40px;
+
+            h1 {
+                font-size: 55px;
+                font-weight: 700;
+            }
+
+            h6 {
+                color: #E52929;
+                font-weight: 800;
+                font-size: larger;
+            }
+        }
+
+        .product-one {
+            margin-bottom: 30px;
+            width: 370px;
+
+            .price-2 {
+                text-align: center;
+
+                img {
+                    width: 370px;
+                }
+
+                background-color: rgb(248, 248, 248);
+                position: relative;
+
+                .price-overlay {
+                    padding: 15px;
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    top: 0%;
+                    left: 0%;
+                    background-color: rgba(255, 255, 255, 0);
+                    transition: 0.5s ease-in-out;
+
+                    &:hover {
+                        background-color: rgba(255, 255, 255, 0.775);
+
+                        .icons {
+                            a {
+                                i {
+                                    visibility: visible;
+                                    transform: translateY(-16px);
+                                    transition: 0.3s ease-in-out;
+
+                                    &:hover {
+                                        transform: translateY(-23px);
+                                    }
+                                }
+                            }
+                        }
+
+                    }
+
+                    .sale {
+                        h6 {
+                            display: inline;
+                            color: white;
+                            background-color: #E52929;
+                            padding: 4px 16px;
+                            font-size: 13px;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .icons {
+                        margin-top: 160px;
+
+                        a {
+                            text-decoration: none;
+
+                            i {
+                                visibility: hidden;
+                                background-color: white;
+                                color: #2e2e2e;
+                                padding: 18px;
+                                border-radius: 50%;
+                                transition: 0.3s ease-in-out;
+                                transform: translateY(30px);
+
+                                &:hover {
+                                    color: white;
+                                    background-color: #E52929;
+                                }
+
+                                &.shopping {
+                                    transition: 0.5s ease-in-out;
+                                }
+
+                                &.glass {
+                                    transition: 0.7s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .price-tag {
+                background-color: #F0EEEE;
+                padding: 25px 20px;
+                color: #2e2e2e;
+
+                a {
+                    color: #2e2e2e;
+                    text-decoration: none;
+                    font-size: 22px;
+                    font-weight: 900;
+                    transition: 0.2s ease-in-out;
+
+                    &:hover {
+                        color: #E52929;
+                    }
+                }
+
+                span {
+                    font-size: 18px;
+                    font-weight: 700;
+
+                    &.line {
+                        position: relative;
+                        font-weight: 500;
+
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 100%;
+                            height: 0%;
+                            border: 0.1px solid #2e2e2e;
+                            top: 44%;
+                            left: 0%;
+                        }
+                    }
+                }
+            }
+        }
+
+        .products-two-bottom-text {
+            text-align: center;
+
+            .view-more {
+                text-decoration: none;
+                padding: 12px 38px;
+                color: white;
+                background-color: #E52929;
+                font-size: 22px;
+                font-weight: 900;
+                position: relative;
+
+                &:hover {
+                    &::before {
+                        width: 100%;
+                        left: 0%;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0%;
+                    transition: 0.3s ease-in-out;
+                    height: 100%;
+                    width: 0%;
+                    background-color: #303030;
+                    right: 0%;
+                    transform-origin: 0 100%;
+                }
+            }
+        }
+
+    }
+
+}
+
+// section sale-product ends 
+// section sale-product-two starts 
+
+.sale-product-two {
+    background-image: url(https://prestashop17.joommasters.com/neoncart/themes/jms_delphinus/assets/img/car_parts/bg_04.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 90vh;
+    font-family: 'Rajdhani', sans-serif;
+    position: relative;
+
+    .sale-product-overlay {
+        padding-top: 90px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        left: 0%;
+        background-color: rgba(36, 34, 34, 0.626);
+
+        .contain {
+            width: 81%;
+
+            .sale-product-two-top-text {
+                margin-bottom: 40px;
+
+                h1 {
+                    color: white;
+                    font-size: 52px;
+                    font-weight: 700;
+                }
+
+                h6 {
+                    color: #E52929;
+                    font-weight: 800;
+                    font-size: larger;
+                }
+            }
+
+            .car-img-one {
+                overflow: hidden;
+                width: 400px;
+                height: 400px;
+
+                img {
+                    transition: 0.3s ease-in-out;
+                    transform: scale(1);
+
+                    &:hover {
+                        transform: scale(1.05);
+                    }
+                }
+            }
+
+            .col-text {
+                width: 400px;
+                height: 400px;
+                padding-top: 15px;
+                padding-right: 100px;
+                color: white;
+
+                h1 {
+                    font-size: 45px;
+                    font-weight: 700;
+                }
+
+                h4 {
+                    font-size: 20px;
+                    font-weight: 300;
+                    font-family: 'Lato', sans-serif;
+                }
+
+                .view-more {
+                    text-decoration: none;
+                    padding: 12px 32px;
+                    color: white;
+                    background-color: #E52929;
+                    font-size: 22px;
+                    font-weight: 900;
+                    position: relative;
+
+                    &:hover {
+                        &::before {
+                            width: 100%;
+                            left: 0%;
+                        }
+                    }
+
+                    &::before {
+                        content: "";
+                        position: absolute;
+                        top: 0%;
+                        transition: 0.3s ease-in-out;
+                        height: 100%;
+                        width: 0%;
+                        background-color: #303030;
+                        right: 0%;
+                        transform-origin: 0 100%;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+// section sale-product-two ends 
+// section trending starts 
+
+.trending {
+    font-family: 'Rajdhani', sans-serif;
+    height: 145vh;
+    padding-top: 50px;
+
+    .contain {
+        width: 75%;
+
+        .car-img-3 {
+            width: 680px;
+        }
+
+        .trending-text {
+            padding-top: 30px;
+
+            ul {
+                li {
+                    color: rgb(94, 93, 93);
+                }
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+                font-size: 55px;
+                font-weight: 800;
+            }
+
+            p {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 18px;
+                color: #424141;
+            }
+
+            .view-more {
+                text-decoration: none;
+                padding: 12px 32px;
+                color: white;
+                background-color: #E52929;
+                font-size: 22px;
+                font-weight: 900;
+                position: relative;
+                z-index: 1;
+                &:hover {
+                    z-index: 1;
+                    display: inline-block;
+                    &::before {
+                        z-index: -1;
+                        width: 100%;
+                        left: 0%;
+                    }
+                }
+
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0%;
+                    transition: 0.3s ease-in-out;
+                    height: 100%;
+                    width: 0%;
+                    background-color: #303030;
+                    right: 0%;
+                    transform-origin: 0 100%;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+}
+
+// section trending ends 
+// section brands starts 
+
+.brands {
+    height: 30vh;
+    padding-top: 20px;
+
+    .contain {
+        width: 80%;
+    }
+}
+
+// section brands ends 
+// section subscribe starts 
+
+.subscribe {
+    font-family: 'Rajdhani', sans-serif;
+    height: 35vh;
+    padding-top: 100px;
+    background-color: #EBEBEB;
+
+    .contain {
+        width: 80%;
+
+        a {
+            i {
+                color: #333E48;
+                font-size: 90px;
+            }
+        }
+
+        input {
+            width: 350px;
+            height: 77px;
+            border: transparent;
+        }
+
+        span {
+            color: #2E2E2E;
+            font-size: 50px;
+            font-weight: 700;
+            padding-right: 120px;
+            line-height: 50px;
+        }
+
+        .subscribe-button {
+            margin-left: -8px;
+            text-decoration: none;
+            padding: 23px 32px 26px;
+            color: white;
+            background-color: #E52929;
+            font-size: 22px;
+            font-weight: 900;
+            position: relative;
+
+            &:hover {
+                z-index: 1;
+                display: inline-block;
+
+                &::before {
+                    width: 100%;
+                    left: 0%;
+                }
+            }
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0%;
+                transition: 0.3s ease-in-out;
+                height: 100%;
+                width: 0%;
+                background-color: #303030;
+                right: 0%;
+                // transform-origin: 0 100%;
+            }
+        }
+    }
+}
+
+// section subscribe ends 
